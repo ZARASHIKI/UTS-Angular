@@ -1,0 +1,27 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<app-header></app-header>
+<div class="content">
+  <div class="sidebar">
+    <ul>
+      <li [routerLink]="'dashboard'">
+        <span>Dashboard</span>
+      </li>
+      <li [routerLink]="'post'">
+        <span>Post</span>
+      </li>
+      <li [routerLink]="'profile'">
+        <span>Profile</span>
+      </li>
+      <li [routerLink]="'setting'">
+        <span>Setting</span>
+      </li>
+    </ul>
+    
+  </div>
+  <div class="router-outlet">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+<app-footer></app-footer>
+

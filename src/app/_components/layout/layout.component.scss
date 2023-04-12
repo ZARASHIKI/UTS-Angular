@@ -1,0 +1,26 @@
+.content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  direction: row;
+
+  .sidebar {
+    background-color: #b90065;
+    width: 250px;
+    position: relative;
+    color: white;
+    ul {
+      list-style-type: none;
+      li {
+        padding-right: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-family:'Times New Roman', Times, serif;
+        cursor: pointer;
+      }
+    }
+  }
+.router-outlet{
+  margin-top: 50px;
+}
+}

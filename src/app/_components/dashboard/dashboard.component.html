@@ -1,0 +1,5 @@
+<ul >
+    <li class="d-inline" *ngFor="let menuItem of menuItems">
+        <a routerLink="{{ menuItem.link }}"><button type="button" class="btn btn-primary">{{menuItem.title}}</button></a>
+    </li>
+  </ul>
